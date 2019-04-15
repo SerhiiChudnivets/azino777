@@ -1,0 +1,29 @@
+<svg id="ico-exclamation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 30 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9cb4e1;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1191" y="762" width="53" height="62" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="15" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.828"/>
+      <feFlood result="flood" flood-opacity="0.21"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feGaussianBlur result="blur-2" stdDeviation="3.333" in="SourceAlpha"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feComposite result="composite-4"/>
+      <feFlood result="flood-2" flood-color="#fc0" flood-opacity="0.29"/>
+      <feComposite result="composite-5" operator="in" in2="composite-4"/>
+      <feBlend result="blend" in2="composite"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+      <feFlood result="flood-3" flood-color="#f8a41f"/>
+      <feComposite result="composite-6" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-3" in2="blend-2"/>
+    </filter>
+  </defs>
+  <path id="warning-7" class="cls-1" d="M1217,797.4a2.25,2.25,0,1,1,2.25-2.25A2.252,2.252,0,0,1,1217,797.4Zm-1.59-13.786h3.18v7.532h-3.18v-7.532Zm1.59-9.708-14.28,26.179h28.56Z" transform="translate(-1202 -773)"/>
+</svg>

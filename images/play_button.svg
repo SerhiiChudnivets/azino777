@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="40" viewBox="0 0 61 75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f0f4fa;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="657" y="358" width="202" height="216" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="15" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.828"/>
+      <feFlood result="flood" flood-opacity="0.73"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feOffset result="offset-2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur-2" stdDeviation="8.367"/>
+      <feFlood result="flood-2" flood-color="#bb331c" flood-opacity="0.54"/>
+      <feComposite result="composite-2" operator="in" in2="blur-2"/>
+      <feBlend result="blend" in2="composite"/>
+      <feGaussianBlur result="blur-3" stdDeviation="4.333" in="SourceAlpha"/>
+      <feComposite result="composite-3"/>
+      <feComposite result="composite-4"/>
+      <feComposite result="composite-5"/>
+      <feFlood result="flood-3" flood-color="#ff0032" flood-opacity="0.49"/>
+      <feComposite result="composite-6" operator="in" in2="composite-5"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feBlend result="blend-3" in="SourceGraphic"/>
+      <feGaussianBlur result="blur-4" stdDeviation="2" in="SourceAlpha"/>
+      <feFlood result="flood-4" flood-color="#eb4175" flood-opacity="0.8"/>
+      <feComposite result="composite-7" operator="out" in2="blur-4"/>
+      <feOffset result="offset-3"/>
+      <feComposite result="composite-8" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-4" mode="overlay" in2="blend-3"/>
+    </filter>
+  </defs>
+  <path id="play_button" class="cls-1" d="M732.25,429.25l51,33A7.308,7.308,0,0,1,787,466h0a10.5,10.5,0,0,1-3.75,3.75l-51,32.25a3.75,3.75,0,0,1-3.75-3.75V433A3.75,3.75,0,0,1,732.25,429.25Zm4.5,10.56,37.245,23.42a5.243,5.243,0,0,1,2.739,2.661l5.025,0.047a54.864,54.864,0,0,0-7.764,2.614l-37.245,22.887a2.7,2.7,0,0,1-2.738-2.661V442.472A2.7,2.7,0,0,1,736.746,439.81ZM754.375,436a1.875,1.875,0,0,1,1.875,1.875v63a1.875,1.875,0,0,1-3.75,0v-63A1.874,1.874,0,0,1,754.375,436Z" transform="translate(-727 -428)"/>
+</svg>

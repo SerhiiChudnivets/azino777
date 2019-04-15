@@ -1,0 +1,328 @@
+@font-face {
+    font-family: "Oneday";
+    src: url("fonts/ONEDAY.TTF");
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url("fonts/ProximaNova-regular.ttf");
+}
+@font-face {
+    font-family: "ProximaNovaLight";
+    src: url("fonts/ProximaNova-light.ttf");
+}
+
+body{
+    background: url("images/bg.png");
+    padding-top: 56px;
+    padding-bottom: 70px;
+}
+@media (-webkit-min-device-pixel-ratio: 2) {
+body{
+    background: url("images/bg@2x.png");
+    background-size: contain;
+}
+}
+.menu{
+    padding-left: 98px;
+    flex-grow: 1;
+}
+.menu__items{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 44px;
+    padding: 0;
+}
+.drop__menu{
+    position: absolute;
+    top: 51px;
+    left: 0px;
+    display: none;
+    width: 0%;
+    transition: 1.3s;
+    z-index: 1;
+
+}
+.drop__menu.dropdown{
+    display: block;
+    width: 100%;
+    transition: 1.3s;
+    cursor: pointer;
+}
+.drop__menu-items{
+    background: #2c1e3c;
+    padding: 12px 20px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    width: max-content;
+
+}
+.drop__menu-items:hover{
+    text-shadow: 0 0 2.6px #bb331c, -3px 0px 5px rgba(235, 65, 117, 1), 3px 0px 4px rgba(235, 65, 117, 1);
+}
+.first__logo-word{
+    text-shadow: 0 0 2.6px #6000be, -5px 0px 4px #6000be, 5px 0px 4px #6000be;
+    font-family:'Oneday', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #ffffff;
+    margin-right: 19px;
+    line-height: 1;
+}
+.second__logo-word{
+    text-shadow: 0 0 2.6px #bb331c, -3px 0px 5px rgba(235, 65, 117, 1), 3px 0px 4px rgba(235, 65, 117, 1);
+    font-family:'Oneday', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    line-height: 1;
+
+}
+.menu__item{
+    text-shadow: 0 0 2.6px #6000be, -5px 0px 4px #6000be, 5px 0px 4px #6000be;
+    font-family: ProximaNova;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    position: relative;
+    padding: 12px 20px;
+    border: none;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+.menu__item>a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.menu__item:hover{
+    background: #2c1e3c;
+    border-radius: 5px;
+    border: none;
+}
+.arrow{
+    margin-right: 8px;
+    margin-left: 8px;
+    width: 5px;
+}
+.breadcrumbs{
+    margin-bottom: 19px;
+}
+.breadcrumbs__item{
+    text-shadow: 0 0 2.6px #bb331c, -3px 0px 5px rgba(235, 65, 117, 1), 3px 0px 4px rgba(235, 65, 117, 1);
+    font-family: ProximaNova;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.general_block{
+    border-radius: 5px;
+    box-shadow: 0 0 35.1px 18.9px rgba(96, 0, 190, 0.29), 0px 15px 8px 0 rgba(0, 0, 0, 0.04);
+    border: solid 1px rgba(255,255,255,0.4);
+    color: #f6fbff;
+    padding: 36px 51px 59px 51px;
+    margin-bottom: 40px;
+    background: rgba(96,0,190,0.2);
+;
+}
+.general_block-title{
+    text-shadow: 0 0 2.6px #bb331c, -3px 0px 5px rgba(235, 65, 117, 1), 3px 0px 4px rgba(235, 65, 117, 1);
+
+    font-family: ProximaNova;
+    font-size: 34px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 39px;
+}
+.general__block-text{
+    font-family: ProximaNovaLight;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(204, 202, 255, 0.68);
+    line-height: 30px;
+}
+.hamburger{
+    cursor: pointer;
+}
+.humburger__line{
+    width: 28px;
+    border: 2px solid #ffffff;
+    margin-bottom: 7px;
+    border-radius: 1.2px;
+}
+.footer__text{
+    text-shadow: 0px 8px 11px rgba(0, 0, 0, 0.83);
+    font-family: ProximaNovaLight;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #626173;
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+    body{
+        padding-top: 28px;
+    }
+
+    .menu__items{
+        flex-direction: column;
+        width: fit-content;
+        padding: 0px;
+        margin-bottom: 28px;
+    }
+    .menu__item{
+        width: auto;
+        text-align: center;
+        margin: 0;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        margin-top: 6px;
+    }
+    .logo{
+        margin-bottom: 25px;
+        justify-content: center;
+    }
+    .first__logo-word{
+        font-size: 28px;
+        line-height: 34.5px;
+        letter-spacing: 0.56px;
+        margin-right: 12px;
+    }
+    .second__logo-word{
+        font-size: 28px;
+        line-height: 34.5px;
+        text-shadow: 0 0 2.6px #bb331c, -3px 0px 5px rgba(235, 65, 117, 1), 3px 0px 4px rgba(235, 65, 117, 1);
+    }
+    .general_block{
+        padding: 22px 22px 32px 22px;
+    }
+    .general_block-title{
+        font-size: 24px;
+        line-height: 1;
+        text-shadow: 0 0 2.6px #bb331c, 0px 15px 8px rgba(0, 0, 0, 0.73), 0 0 4px rgba(235, 65, 117, 0.8);
+        margin-bottom: 30px;
+    }
+    .collapse__menu{
+        position: fixed;
+        top: 0;
+        height: 100%;
+        width: 256px;
+        right: -256px;
+        background: #1e132d;
+        padding: 24px 20px;
+        z-index: 3;
+        transition: 0.3s;
+    }
+    .collapse__menu>.hamburger{
+        margin-bottom: 46px;
+    }
+    .collapse__menu>.menu__items{
+        margin-top: 25px;
+        width: 100%;
+    }
+    .collapse__menu.open-menu{
+        right:0px;
+        transition: 0.3s;
+    }
+
+}
+@media (min-width: 1568px) {
+    .container{
+        min-width: 1536px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1567px){
+    .container{
+        max-width: calc(100% - 32px);
+
+    }
+    .sidebar{
+        margin-right: 8px;
+    }
+    .sidebar__item-button{
+        padding: 7px 8px 7px 17px;
+    }
+    .menu{
+        padding-left: 44px;
+    }
+    .menu__item{
+        font-size: 16px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .container{
+        max-width: calc(100% - 32px);
+    }
+
+}
+@media (max-width: 992px) {
+    body{
+        padding-bottom: 30px;
+    }
+    .general{
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+    }
+    .casino__description-block{
+        width: 100%;
+    }
+    .games__current-item{
+        width: 100%;
+        margin: 0;
+    }
+    .intro{
+        flex-direction: column;
+    }
+    .logo{
+        margin-bottom: 16px;
+    }
+    .casino__title{
+        margin-bottom: 16px;
+        font-size: 24px;
+    }
+    .casino__item{
+        margin-bottom: 8px;
+    }
+    .divider{
+        margin-bottom: 24px !important;
+    }
+    .games__item__description{
+        margin-bottom: 24px !important;
+    }
+    .menu{
+        padding-left: 0;
+    }
+}
+@media (max-width: 767px) {
+    .menu__item {
+        width: auto;
+        text-align: center;
+        margin: 0;
+        line-height: 1;
+        font-size: 14px;
+    }
+}

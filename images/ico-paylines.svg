@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23.88" height="11.938" viewBox="0 0 23.88 11.938">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #c7d8ff;
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="15" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.828"/>
+      <feFlood result="flood" flood-opacity="0.21"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feOffset result="offset-2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2"/>
+      <feFlood result="flood-2" flood-color="#6000be"/>
+      <feComposite result="composite-2" operator="in" in2="blur-2"/>
+      <feBlend result="blend" in2="composite"/>
+      <feGaussianBlur result="blur-3" stdDeviation="3.333" in="SourceAlpha"/>
+      <feComposite result="composite-3"/>
+      <feComposite result="composite-4"/>
+      <feComposite result="composite-5"/>
+      <feFlood result="flood-3" flood-color="#6f00ff" flood-opacity="0.41"/>
+      <feComposite result="composite-6" operator="in" in2="composite-5"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feBlend result="blend-3" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="ico-paylines" class="cls-1">
+    <path class="cls-2" d="M1403.11,328.52l1.84,2.369-11.06,8.59-1.84-2.369Z" transform="translate(-1381.06 -328.531)"/>
+    <path id="Rectangle_888_copy_2" data-name="Rectangle 888 copy 2" class="cls-2" d="M1389.11,331.52l1.84,2.369-8.06,6.59-1.84-2.369Z" transform="translate(-1381.06 -328.531)"/>
+    <path id="Rectangle_888_copy" data-name="Rectangle 888 copy" class="cls-2" d="M1388.89,331.52l-1.84,2.369,7.06,5.59,1.84-2.369Z" transform="translate(-1381.06 -328.531)"/>
+  </g>
+</svg>

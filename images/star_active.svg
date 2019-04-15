@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+      fill: #f84f38;
+      fill-rule: evenodd;
+      filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1616" y="1212" width="47" height="45" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="10" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2"/>
+      <feFlood result="flood" flood-opacity="0.18"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feOffset result="offset-2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2"/>
+      <feFlood result="flood-2" flood-color="#bb331c" flood-opacity="0.42"/>
+      <feComposite result="composite-2" operator="in" in2="blur-2"/>
+      <feBlend result="blend" in2="composite"/>
+      <feGaussianBlur result="blur-3" stdDeviation="4.333" in="SourceAlpha"/>
+      <feComposite result="composite-3"/>
+      <feComposite result="composite-4"/>
+      <feComposite result="composite-5"/>
+      <feFlood result="flood-3" flood-color="#ff0032" flood-opacity="0.26"/>
+      <feComposite result="composite-6" operator="in" in2="composite-5"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feBlend result="blend-3" in="SourceGraphic"/>
+      <feFlood result="flood-4" flood-color="#ffc5a9"/>
+      <feComposite result="composite-7" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-4" in2="blend-3"/>
+      <feGaussianBlur result="blur-4" stdDeviation="2" in="SourceAlpha"/>
+      <feFlood result="flood-5" flood-color="#eb4175" flood-opacity="0.8"/>
+      <feComposite result="composite-8" operator="out" in2="blur-4"/>
+      <feOffset result="offset-3"/>
+      <feComposite result="composite-9" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-5" mode="overlay" in2="blend-4"/>
+    </filter>
+  </defs>
+  <path id="star-3_copy_4" data-name="star-3 copy 4" class="cls-1" d="M1639.1,1226.01l2.57,5.3,5.83,0.8-4.25,4.08,1.04,5.8-5.19-2.78-5.19,2.78,1.03-5.8-4.24-4.08,5.83-.8Z" transform="translate(-1630 -1225)"/>
+</svg>

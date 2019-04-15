@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="20" viewBox="0 0 17 20">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #c7d8ff;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="15" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.828"/>
+      <feFlood result="flood" flood-opacity="0.21"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feOffset result="offset-2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2"/>
+      <feFlood result="flood-2" flood-color="#6000be"/>
+      <feComposite result="composite-2" operator="in" in2="blur-2"/>
+      <feBlend result="blend" in2="composite"/>
+      <feGaussianBlur result="blur-3" stdDeviation="3.333" in="SourceAlpha"/>
+      <feComposite result="composite-3"/>
+      <feComposite result="composite-4"/>
+      <feComposite result="composite-5"/>
+      <feFlood result="flood-3" flood-color="#6f00ff" flood-opacity="0.41"/>
+      <feComposite result="composite-6" operator="in" in2="composite-5"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feBlend result="blend-3" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="ico-slottype_copy" data-name="ico-slottype copy" class="cls-1">
+    <rect id="Rounded_Rectangle_895" data-name="Rounded Rectangle 895" class="cls-2" x="2" y="4" width="4" height="4" rx="2" ry="2"/>
+    <rect id="Rounded_Rectangle_895_copy" data-name="Rounded Rectangle 895 copy" class="cls-2" x="12" y="13" width="4" height="4" rx="2" ry="2"/>
+    <rect id="Rounded_Rectangle_895_copy_2" data-name="Rounded Rectangle 895 copy 2" class="cls-2" x="7" y="9" width="4" height="4" rx="2" ry="2"/>
+    <rect id="Rounded_Rectangle_897" data-name="Rounded Rectangle 897" class="cls-2" width="17" height="2" rx="1" ry="1"/>
+    <rect id="Rounded_Rectangle_897_copy" data-name="Rounded Rectangle 897 copy" class="cls-2" y="18" width="17" height="2" rx="1" ry="1"/>
+    <rect id="Rounded_Rectangle_899" data-name="Rounded Rectangle 899" class="cls-2" x="3" y="10" width="1" height="10" rx="0.5" ry="0.5"/>
+    <rect id="Rounded_Rectangle_900" data-name="Rounded Rectangle 900" class="cls-2" x="13" y="1" width="1" height="10" rx="0.5" ry="0.5"/>
+  </g>
+</svg>

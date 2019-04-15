@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.531" height="23.875" viewBox="0 0 27.531 23.875">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="15" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.828"/>
+      <feFlood result="flood" flood-opacity="0.73"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feOffset result="offset-2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2"/>
+      <feFlood result="flood-2" flood-color="#6000be"/>
+      <feComposite result="composite-2" operator="in" in2="blur-2"/>
+      <feBlend result="blend" in2="composite"/>
+      <feGaussianBlur result="blur-3" stdDeviation="3.333" in="SourceAlpha"/>
+      <feComposite result="composite-3"/>
+      <feComposite result="composite-4"/>
+      <feComposite result="composite-5"/>
+      <feFlood result="flood-3" flood-color="#6f00ff" flood-opacity="0.5"/>
+      <feComposite result="composite-6" operator="in" in2="composite-5"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feBlend result="blend-3" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="ico_menu" data-name="ico menu" class="cls-1">
+    <rect id="Rounded_Rectangle_1046" data-name="Rounded Rectangle 1046" class="cls-2" width="27.531" height="2.344" rx="1.169" ry="1.169"/>
+    <rect id="Rounded_Rectangle_1046_copy" data-name="Rounded Rectangle 1046 copy" class="cls-2" y="10.75" width="27.531" height="2.375" rx="1.183" ry="1.183"/>
+    <rect id="Rounded_Rectangle_1046_copy_2" data-name="Rounded Rectangle 1046 copy 2" class="cls-2" y="21.5" width="27.531" height="2.375" rx="1.183" ry="1.183"/>
+  </g>
+</svg>

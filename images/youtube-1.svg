@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.5" height="20.38" viewBox="0 0 25.5 20.38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-opacity: 0.32;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1323.25" y="2140.81" width="25.5" height="20.38" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#373a4a"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="youtube-1" class="cls-1" d="M1346.2,2141.31a102.255,102.255,0,0,0-20.4,0c-2.04.64-2.55,5.1-2.55,9.69s0.51,9.05,2.55,9.69a102.255,102.255,0,0,0,20.4,0c2.04-.64,2.55-5.1,2.55-9.69S1348.24,2141.95,1346.2,2141.31Zm-12.75,15.43v-11.48l7.65,5.74Z" transform="translate(-1323.25 -2140.81)"/>
+</svg>

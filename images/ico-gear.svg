@@ -1,0 +1,31 @@
+<svg id="ico-gear" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 26 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c7d8ff;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1370" y="239" width="47" height="56" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="15" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.828"/>
+      <feFlood result="flood" flood-opacity="0.21"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feOffset result="offset-2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2"/>
+      <feFlood result="flood-2" flood-color="#6000be"/>
+      <feComposite result="composite-2" operator="in" in2="blur-2"/>
+      <feBlend result="blend" in2="composite"/>
+      <feGaussianBlur result="blur-3" stdDeviation="3.333" in="SourceAlpha"/>
+      <feComposite result="composite-3"/>
+      <feComposite result="composite-4"/>
+      <feComposite result="composite-5"/>
+      <feFlood result="flood-3" flood-color="#6f00ff" flood-opacity="0.41"/>
+      <feComposite result="composite-6" operator="in" in2="composite-5"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feBlend result="blend-3" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="gear-11"  class="cls-1" d="M1394,270a1,1,0,1,1,1-1A1,1,0,0,1,1394,270Zm3-.6V268.6a1.064,1.064,0,0,1-.8-0.506,1.031,1.031,0,0,1,.21-0.926l-0.58-.572a1.048,1.048,0,0,1-.92.212,1.076,1.076,0,0,1-.51-0.8h-0.8a0.826,0.826,0,0,1-1.44.592l-0.57.572a1.03,1.03,0,0,1,.21.926,1.053,1.053,0,0,1-.8.506V269.4a1.053,1.053,0,0,1,.8.506,1.025,1.025,0,0,1-.21.926l0.57,0.572a0.826,0.826,0,0,1,1.44.593h0.8a1.082,1.082,0,0,1,.51-0.806h0a1.052,1.052,0,0,1,.92.213l0.58-.572a1.029,1.029,0,0,1-.21-0.926A1.053,1.053,0,0,1,1397,269.4Zm4-3.07a1.334,1.334,0,1,1,1.33-1.334A1.328,1.328,0,0,1,1401,266.333Zm4-.8v-1.077a1.1,1.1,0,0,1-.79-1.909l-0.76-.762a1.43,1.43,0,0,1-1.24.283h0a1.416,1.416,0,0,1-.67-1.073h-1.08a1.42,1.42,0,0,1-.67,1.073h0a1.43,1.43,0,0,1-1.24-.283l-0.76.762a1.1,1.1,0,0,1-.79,1.909v1.077a1.42,1.42,0,0,1,1.07.673,1.4,1.4,0,0,1-.28,1.236l0.76,0.762a1.434,1.434,0,0,1,1.24-.283h0a1.418,1.418,0,0,1,.67,1.073h1.08a1.425,1.425,0,0,1,.67-1.074h0a1.437,1.437,0,0,1,1.24.284l0.76-.762a1.4,1.4,0,0,1-.28-1.235A1.418,1.418,0,0,1,1405,265.538Zm-15.5-4.2a2.834,2.834,0,1,1,2.83-2.834A2.833,2.833,0,0,1,1389.5,261.333Zm8.5-1.689v-2.289c-1.17-.416-1.91-0.533-2.28-1.431h0c-0.37-.9.07-1.512,0.6-2.625l-1.62-1.619c-1.1.526-1.72,0.974-2.62,0.6h0c-0.9-.372-1.02-1.116-1.44-2.279h-2.28c-0.42,1.157-.53,1.907-1.44,2.279h0c-0.9.373-1.51-.07-2.62-0.6l-1.62,1.619c0.53,1.11.97,1.724,0.6,2.625s-1.12,1.019-2.28,1.431v2.289c1.16,0.412,1.91.531,2.28,1.431s-0.08,1.534-.6,2.625l1.62,1.619c1.11-.525,1.72-0.974,2.62-0.6h0c0.91,0.372,1.02,1.118,1.44,2.28h2.28c0.42-1.159.53-1.906,1.44-2.283h0c0.9-.372,1.5.071,2.62,0.6l1.62-1.619c-0.53-1.107-.97-1.723-0.6-2.624S1396.84,260.056,1398,259.644Z" transform="translate(-1380 -249)"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.28" height="19.687" viewBox="0 0 19.28 19.687">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="3" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1.732"/>
+      <feFlood result="flood" flood-opacity="0.97"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feOffset result="offset-2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur-2" stdDeviation="4.243"/>
+      <feFlood result="flood-2" flood-color="#234cff" flood-opacity="0.08"/>
+      <feComposite result="composite-2" operator="in" in2="blur-2"/>
+      <feBlend result="blend" in2="composite"/>
+      <feOffset result="offset-3" in="SourceAlpha"/>
+      <feGaussianBlur result="blur-3" stdDeviation="2"/>
+      <feFlood result="flood-3" flood-color="#6000be"/>
+      <feComposite result="composite-3" operator="in" in2="blur-3"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feGaussianBlur result="blur-4" stdDeviation="3.333" in="SourceAlpha"/>
+      <feComposite result="composite-4"/>
+      <feComposite result="composite-5"/>
+      <feComposite result="composite-6"/>
+      <feFlood result="flood-4" flood-color="#6f00ff" flood-opacity="0.13"/>
+      <feComposite result="composite-7" operator="in" in2="composite-6"/>
+      <feBlend result="blend-3" in2="blend-2"/>
+      <feBlend result="blend-4" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="ico-search" class="cls-1">
+    <path class="cls-2" d="M1691.4,502.046a8,8,0,1,1-.26,11.31A8,8,0,0,1,1691.4,502.046Zm1.42,1.487a5.943,5.943,0,1,1-.19,8.4A5.953,5.953,0,0,1,1692.82,503.533Z" transform="translate(-1688.94 -499.844)"/>
+    <path id="Rounded_Rectangle_891" data-name="Rounded Rectangle 891" class="cls-2" d="M1701.38,512.446a2,2,0,0,1,2.83.064l3.45,3.616a2,2,0,1,1-2.89,2.763l-3.45-3.616A1.992,1.992,0,0,1,1701.38,512.446Z" transform="translate(-1688.94 -499.844)"/>
+  </g>
+</svg>

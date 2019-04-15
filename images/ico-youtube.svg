@@ -1,0 +1,48 @@
+<svg id="ico-youtube" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 34 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fe311c;
+        filter: url(#filter);
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <filter id="filter" x="282" y="759" width="63" height="65" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="15" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3"/>
+      <feFlood result="flood" flood-opacity="0.21"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feOffset result="offset-2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2"/>
+      <feFlood result="flood-2" flood-color="#bb331c" flood-opacity="0.42"/>
+      <feComposite result="composite-2" operator="in" in2="blur-2"/>
+      <feBlend result="blend" in2="composite"/>
+      <feGaussianBlur result="blur-3" stdDeviation="4.333" in="SourceAlpha"/>
+      <feComposite result="composite-3"/>
+      <feComposite result="composite-4"/>
+      <feComposite result="composite-5"/>
+      <feFlood result="flood-3" flood-color="#ff0032" flood-opacity="0.26"/>
+      <feComposite result="composite-6" operator="in" in2="composite-5"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feBlend result="blend-3" in="SourceGraphic"/>
+      <feFlood result="flood-4" flood-color="#f2220c"/>
+      <feComposite result="composite-7" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-4" in2="blend-3"/>
+      <feGaussianBlur result="blur-4" stdDeviation="2" in="SourceAlpha"/>
+      <feFlood result="flood-5" flood-color="#eb4175" flood-opacity="0.8"/>
+      <feComposite result="composite-8" operator="out" in2="blur-4"/>
+      <feOffset result="offset-3"/>
+      <feComposite result="composite-9" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-5" mode="overlay" in2="blend-4"/>
+    </filter>
+  </defs>
+  <path id="Forma_1" data-name="Forma 1" class="cls-1" d="M326.138,773.8c-0.986-.328-7.062-0.657-13.138-0.657s-12.152.329-13.138,0.657c-2.627.821-3.284,6.569-3.284,12.481s0.657,11.659,3.284,12.48c0.986,0.329,7.062.658,13.138,0.658s12.152-.329,13.138-0.658c2.627-.821,3.284-6.568,3.284-12.48S328.765,774.62,326.138,773.8Z" transform="translate(-296 -772)"/>
+  <path class="cls-2" d="M309,779l9,7v1l-9,7V779Z" transform="translate(-295 -772)"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg id="ico-full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 27 27">
+  <defs>
+    <style>
+
+      .cls-1 {
+        fill: #9cb4e1;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1212" y="736" width="104" height="104" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="15" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.828"/>
+      <feFlood result="flood" flood-opacity="0.21"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feOffset result="offset-2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2"/>
+      <feFlood result="flood-2" flood-color="#2a20e6"/>
+      <feComposite result="composite-2" operator="in" in2="blur-2"/>
+      <feBlend result="blend" in2="composite"/>
+      <feGaussianBlur result="blur-3" stdDeviation="12.667" in="SourceAlpha"/>
+      <feComposite result="composite-3"/>
+      <feComposite result="composite-4"/>
+      <feComposite result="composite-5"/>
+      <feFlood result="flood-3" flood-color="#3b57ff" flood-opacity="0.52"/>
+      <feComposite result="composite-6" operator="in" in2="composite-5"/>
+      <feBlend result="blend-2" in2="blend"/>
+      <feBlend result="blend-3" in="SourceGraphic"/>
+      <feFlood result="flood-4" flood-color="#a9bfe8"/>
+      <feComposite result="composite-7" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-4" in2="blend-3"/>
+    </filter>
+  </defs>
+  <path id="Forma_1" data-name="Forma 1" class="cls-1" d="M1254.57,791.07H1251V800h8.93v-3.571h-5.36V791.07Zm-3.57-7.14h3.57v-5.356h5.36V775H1251v8.926Zm21.42,12.494h-5.35V800h8.92V791.07h-3.57v5.354ZM1267.07,775v3.57h5.35v5.356h3.57V775h-8.92Z" transform="translate(-1250 -774)"/>
+</svg>
